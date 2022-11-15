@@ -26,7 +26,7 @@ body {
 .nav_menu a.icon {
   display: none;
 }
-.nav_menu a:hover {
+.nav_menu a:hover:not(:first-child) {
   background-color: #00000018;
 }
 
