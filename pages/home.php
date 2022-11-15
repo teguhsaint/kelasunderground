@@ -1011,7 +1011,7 @@ a {
 <div class="row row--banner">
     <section class="row container-medium banner-content">
         <h1 class="banner-content__heading">
-            Toko Online HTML & CSS
+            Toko Makmur
         </h1>
 
         <button class="button"><span>Beli Sekarang</span></button>
@@ -1025,13 +1025,12 @@ a {
             </div>
             <div class="col-wide">
                 <h2 class="features__heading">
-                    Komputer 1
+                    bahan pokok
                 </h2>
 
 
                 <img class="img img-responsive" src="img/img1.jpg"><br>
-                <p>Dengan harga terjangkau dengan kualitas bagus garansi 1 tahun. jangan lewatkan kesempatan anda untuk
-                    memiliki komputer ini untuk belajar anda.</p><br>
+                <p>Dengan harga terjangkau dengan kualitas bagus jangan sampai di lewatkan</p><br>
                 <button class="button2 center"><span>Beli!</span></button><br>
             </div>
         </div>
@@ -1040,12 +1039,11 @@ a {
             </div>
             <div class="col-wide--right features__padding">
                 <h2 class="features__heading">
-                    Komputer 2
+                    bahan tambahan
                 </h2>
                 <img class="img img-responsive" src="img/img2.jpg"><br>
                 <p>
-                    Dengan harga terjangkau dengan kualitas bagus garansi 1 tahun. jangan lewatkan kesempatan anda untuk
-                    memiliki komputer ini untuk belajar anda.
+                    Dengan harga terjangkau dengan kualitas bagus
                 </p><br>
                 <button class="button2 center"><span>Beli!</span></button><br>
             </div>
@@ -1055,11 +1053,10 @@ a {
             </div>
             <div class="col-wide">
                 <h2 class="features__heading">
-                    Komputer 3
+                    bahan sampingan
                 </h2>
                 <img class="img img-responsive" src="img/img3.jpg"><br>
-                <p class="features">Dengan harga terjangkau dengan kualitas bagus garansi 1 tahun. jangan lewatkan
-                    kesempatan anda untuk memiliki komputer ini untuk belajar anda.</p>
+                <p class="features">Dengan harga terjangkau dengan kualitas bagus</p>
                 <br>
                 <button class="button2 center"><span>Beli!</span></button><br><br>
             </div>
