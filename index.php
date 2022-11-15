@@ -15,18 +15,33 @@
 <body>
     <!-- MENU  -->
     <div class="nav_menu">
-        <a href="#">Toko Makmur</a>
-        <a href="#">Home</a>
-        <a href="#">Produk Bangunan</a>
-        <a href="#">Bahan Pokok</a>
-        <a href="#">Produk Pertanian</a>
-        <a href="#">Kontak Kita</a>
+        <a href="index.php?p=home">Toko Makmur</a>
+        <a href="index.php?p=home">Home</a>
+        <a href="index.php?p=produkbangunan">Produk Bangunan</a>
+        <a href="index.php?p=bahanpokok">Bahan Pokok</a>
+        <a href="index.php?p=produkpertanian">Produk Pertanian</a>
+        <a href="index.php?p=kontak">Kontak Kita</a>
         <a href="#" class="icon" onclick="show_menu()"><i class="fas fa-bars"></i></a>
     </div>
     <!-- END MENU  -->
 
     <div class="container">
-        <!-- KONTEN DISINI  -->
+        <?php
+        $pages_dir = 'pages'; //pages merupakan nama folder
+        if (!empty($_GET['p'])) { //kondisi apakan ada parameter p didalam url
+            $pages = scandir($pages_dir, 0);
+            unset($pages[0], $pages[1]);
+
+            $p = $_GET['p'];
+            if (in_array($p . '.php', $pages)) {
+                include($pages_dir . '/' . $p . '.php');
+            } else {
+                echo "Halaman tidak ditemukan!";
+            }
+        } else {
+            include($pages_dir . '/home.php');
+        }
+        ?>
     </div>
 
 
