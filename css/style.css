@@ -2,8 +2,15 @@ body {
   margin: 0;
   font-family: "Montserrat";
 }
+
+.container {
+  display: block;
+  width: calc(100% - 4rem);
+  margin-inline: auto;
+  /* border: 1px solid black; */
+}
 .nav_menu {
-  background-color: rgb(11, 170, 109);
+  background-color: rgb(17, 189, 31);
   overflow: hidden;
 }
 
@@ -19,7 +26,7 @@ body {
 .nav_menu a.icon {
   display: none;
 }
-.nav_menu a:hover {
+.nav_menu a:hover:not(:first-child) {
   background-color: #00000018;
 }
 

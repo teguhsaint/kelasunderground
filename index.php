@@ -15,7 +15,7 @@
 <body>
     <!-- MENU  -->
     <div class="nav_menu">
-        <a href="index.php?p=home">Toko Makmur</a>
+        <a href="#">Toko Makmur</a>
         <a href="index.php?p=home">Home</a>
         <a href="index.php?p=produkbangunan">Produk Bangunan</a>
         <a href="index.php?p=bahanpokok">Bahan Pokok</a>
