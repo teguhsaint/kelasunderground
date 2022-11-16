@@ -110,7 +110,7 @@ input {
     <input type="submit" value="submit"> 
     <br>
     <br>
-    <hr style="border: 1px solid white;">
+    <hr style="border: 1px solid white; width: 100%;">
     <!-- Akhir Label Input -->
 
     <!-- Baris bawah -->
