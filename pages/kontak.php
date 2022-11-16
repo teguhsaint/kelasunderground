@@ -110,5 +110,5 @@ input {
     <!-- Akhir Label Input -->
 
     <!-- Baris bawah -->
-    <a href="#"><h4 style="color: white;"> Refound Policy </h4></a>
+    <a href="#"><p style="color: white;"> Refound Policy </p></a>
     <hr class="hrb">
