@@ -44,6 +44,9 @@ input {
     height: 320px;
     width: 30%;
 }
+.jdlbwh{
+    margin-left: 7px;
+}
 .hrb{
     width: 30%;
     margin-left: 5px;
@@ -111,5 +114,5 @@ input {
     <!-- Akhir Label Input -->
 
     <!-- Baris bawah -->
-    <a href="#"><h5 style="color: white;"> Refound Policy </h5></a>
+    <a href="#"><h5 style="color: white;" class="jdlbwh"> Refound Policy </h5></a>
     <hr class="hrb">
