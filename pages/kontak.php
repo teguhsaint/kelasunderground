@@ -1,6 +1,5 @@
 <style>
     body{
-    
     background-color: black;
     margin-top: 5px;
     margin-left: 10px;
@@ -100,7 +99,7 @@ input {
     <input class="alamat" type="text">
     <br>
     <br>
-    <input type="button" value="submit"> 
+    <input type="submit" value="submit"> 
     <br>
     <br>
     <hr style="border: 1px solid white;">
