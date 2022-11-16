@@ -44,6 +44,14 @@ input {
     height: 320px;
     width: 30%;
 }
+.jdlbwh{
+    margin-left: 7px;
+}
+.hrb{
+    width: 30%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
 </style>
 
 
@@ -99,8 +107,19 @@ input {
     <input class="alamat" type="text">
     <br>
     <br>
-    <input type="button" value="submit"> 
+    <input type="submit" value="submit"> 
     <br>
     <br>
     <hr style="border: 1px solid white;">
     <!-- Akhir Label Input -->
+
+    <!-- Baris bawah -->
+    <a href="#"><h5 style="color: white;" class="jdlbwh"> Refound Policy </h5></a>
+    <hr class="hrb">
+    <a href="#"><h5 style="color: white;" class="jdlbwh"> Pemesanan </h5></a>
+    <hr class="hrb">
+    <a href="#"><h5 style="color: white;" class="jdlbwh"> FAQ </h5></a>
+    <hr class="hrb">
+    <a href="#"><h5 style="color: white;" class="jdlbwh"> Pembayaran Policy </h5></a>
+    <hr class="hrb">
+    <h5 class="jdlbwh"> Toko Makmur </h5>
