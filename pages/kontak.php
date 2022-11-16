@@ -44,6 +44,9 @@ input {
     height: 320px;
     width: 30%;
 }
+.hrb{
+    width: 30%;
+}
 </style>
 
 
@@ -104,3 +107,7 @@ input {
     <br>
     <hr style="border: 1px solid white;">
     <!-- Akhir Label Input -->
+
+    <!-- Baris bawah -->
+    <a href="#"><h4 style="color: white;"> Refound Policy </h4></a>
+    <hr class="hrb">
