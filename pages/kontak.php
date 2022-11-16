@@ -47,6 +47,7 @@ input {
 .hrb{
     width: 30%;
     margin-left: 5px;
+    margin-top: 5px;
 }
 </style>
 
