@@ -1,3 +1,68 @@
+<style>
+    .kolom {
+        display: grid;
+        column-gap: 20px;
+        row-gap: 20px;
+        grid-template-columns: auto auto auto auto;
+        /* background-color: #2196f3; */
+
+        padding: 10px;
+    }
+
+    .grid-item {
+        display: block;
+        width: 100% !important;
+
+        aspect-ratio: 9/16;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid rgb(161, 161, 161);
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: arial;
+        display: inline-block;
+        max-height: 450px;
+        overflow: hidden;
+    }
+
+    .price {
+        color: grey;
+        font-size: 22px;
+        transition-duration: 0.5s;
+    }
+
+    .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .card button:hover {
+        opacity: 0.7;
+    }
+
+    .card img {
+
+        width: 200px;
+        max-height: 200px;
+        margin-top: 50px;
+        transition-duration: 0.5s;
+    }
+
+    .card:hover img {
+
+        transform: scale(1.2);
+    }
+</style>
 <h1 style="text-align:center">Product Card</h1>
 
 <h1 style="text-align: center;">Beras</h1>
