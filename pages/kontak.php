@@ -53,6 +53,7 @@
     .alamat {
         height: 320px;
         width: 30%;
+        margin-left: 10px;
     }
     .button{
         margin-left: 10px;
@@ -65,7 +66,7 @@
         background-color: rgb(0, 183, 255);
     }
     .jdlbwh {
-        margin-left: 7px;
+        margin-left: 10px;
     }
 
     .hrb {
