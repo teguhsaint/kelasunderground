@@ -10,7 +10,7 @@
         height: 0;
         width: 0;
         margin-left: 50%;
-        padding: 11.5em 1em;
+        padding: 21.5em 1em;
     }
 
     .sosmed {
