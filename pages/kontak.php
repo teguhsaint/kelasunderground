@@ -1,9 +1,14 @@
 <style>
     body {
         background-color: black;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
-
+    .judul{
+        margin-left: 70px;
+    }
+    .horizontal1{
+        width: 90%;
+    }
     .vrtcl {
         position: absolute;
         border-left: 2px solid white;
@@ -37,7 +42,7 @@
         display: inline-block;
         font-size: 15px;
         color: white;
-        margin-left: 10px;
+        margin-left: 70px;
     }
 
     .finput {
@@ -47,18 +52,18 @@
         width: 300px;
         border-radius: 4px;
         box-shadow: 0 0 1px blue;
-        margin-left: 10px;
+        margin-left: 70px;
     }
 
     .alamat {
         height: 320px;
         width: 30%;
-        margin-left: 10px;
+        margin-left: 70px;
     }
     .button{
-        margin-left: 10px;
+        margin-left: 70px;
         display: block;
-        width: 100px;
+        width: 80px;
         height: 30px;
         font-size: 15px;
     }
@@ -66,13 +71,45 @@
         background-color: rgb(0, 183, 255);
     }
     .jdlbwh {
-        margin-left: 10px;
+        margin-left: 70px;
+      
+    }
+a{
+  text-decoration: none !important;
+}
+    .hrb {
+        width: 50%;
+        margin-left: 70px;
+        margin-top: 5px;
+    }
+    .findbwh{
+        position: absolute;
+        display: flex;
+        margin-left: 82.5%;
+        bottom: -52%;
+    }
+    .iconbwh {
+        position: absolute;
+        display: flex;
+        margin-top:0;
+        margin-left:70%;
+        bottom:-350px;
+        padding: 10px;
+        border-radius: 5px;
     }
 
-    .hrb {
-        width: 30%;
-        margin-left: 5px;
-        margin-top: 5px;
+    .iconbwh a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    .iconbwh a:hover {
+        color: yellow;
+    }
+    .bgbwh{
+        position: relative;
+        display: flex;
     }
 </style>
 
@@ -82,8 +119,8 @@
 <!-- Akhir Font Awesome -->
 
 <!-- Judul Pertama -->
-<h3 style="color: white;"> Contact Us </h3>
-<hr style="border: 1px solid white;">
+<h3 class="judul" style="color: white;"> Contact Us </h3>
+<hr class="horizontal1" style="border: 1px solid white;">
 <!-- akhir Judul Pertama -->
 
 <!-- Garis Vertical -->
@@ -91,7 +128,7 @@
 </div>
 <!-- Akhir Garis Vertical -->
 
-<!-- Icon -->
+<!-- Icon atas kanan -->
 <div class="sosmed">
     <h3 style="color: white;"> Find Us On </h3>
     <div class="icon">
@@ -101,7 +138,7 @@
         <a href="#"><i class="fa-brands fa-tiktok"></i></a>
         <a href="#"><i class="fa-brands fa-youtube"></i></a>
     </div>
-    <!-- Icon -->
+    <!-- akhir Icon atas kanan -->
 
     <!-- Label Input -->
 </div>
@@ -152,4 +189,18 @@
     <h5 style="color: white;" class="jdlbwh"> Pembayaran Policy </h5>
 </a>
 <hr class="hrb">
-<h5 class="jdlbwh"> Toko Makmur </h5>
+
+<!-- find us on bwh -->
+<div class="findbwh"> 
+        <h3 style="color:white">Find Us On </h3>
+</div>
+
+<!-- Logo Bawah -->
+ <div class="iconbwh">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+<!-- Akhir Logo Bawah -->
