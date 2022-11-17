@@ -1,7 +1,7 @@
 <style>
     body {
         background-color: black;
-
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .vrtcl {
@@ -10,7 +10,7 @@
         height: 0;
         width: 0;
         margin-left: 50%;
-        padding: 50%;
+        padding: 11.5em 1em;
     }
 
     .sosmed {
@@ -34,14 +34,19 @@
     }
 
     label {
+        display: inline-block;
         font-size: 15px;
         color: white;
         margin-left: 10px;
     }
 
-    input {
-        border: 2px solid white;
+    .finput {
+        display: inline-block;
+        border: none;
+        height: 25px;
+        width: 300px;
         border-radius: 4px;
+        box-shadow: 0 0 1px blue;
         margin-left: 10px;
     }
 
@@ -49,7 +54,16 @@
         height: 320px;
         width: 30%;
     }
-
+    .button{
+        margin-left: 10px;
+        display: block;
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .button:active{
+        background-color: rgb(0, 183, 255);
+    }
     .jdlbwh {
         margin-left: 7px;
     }
@@ -93,19 +107,19 @@
 <label for="name">Name</label>
 <br>
 <br>
-<input type="text" name="nama">
+<input class="finput" type="text" name="nama">
 <br>
 <br>
 <label for="Email">Email</label>
 <br>
 <br>
-<input type="text">
+<input class="finput" type="text">
 <br>
 <br>
 <label for="Number"> Nomor HP </label>
 <br>
 <br>
-<input type="number">
+<input class="finput" type="number">
 <br>
 <br>
 <label for="alamat"> Alamat lengkap </label>
@@ -114,7 +128,7 @@
 <input class="alamat" type="text">
 <br>
 <br>
-<input type="submit" value="submit">
+<input class="button" type="submit" value="submit">
 <br>
 <br>
 <hr style="border: 1px solid white;">
