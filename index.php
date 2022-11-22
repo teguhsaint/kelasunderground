@@ -18,7 +18,7 @@
         <a href="#">Toko Makmur</a>
         <a href="index.php?p=home">Home</a>
         <a href="index.php?p=produkbangunan">Produk Bangunan</a>
-        <a href="index.php?p=bahanpokok">Bahan Pokok</a>
+        <a href="index.php?p=bpokok">Bahan Pokok</a>
         <a href="index.php?p=produkpertanian">Produk Pertanian</a>
         <a href="index.php?p=kontak">Kontak Kita</a>
         <a href="#" class="icon" onclick="show_menu()"><i class="fas fa-bars"></i></a>
