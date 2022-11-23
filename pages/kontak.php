@@ -1,17 +1,21 @@
 <style>
     body {
-        background-color: black;
+        background-color: grey;
         font-family: 'Raleway', sans-serif;
     }
-    .judul{
+
+    .judul {
         margin-left: 70px;
     }
-    .horizontal1{
+
+    .horizontal1 {
+        color: black;
         width: 90%;
     }
+
     .vrtcl {
         position: absolute;
-        border-left: 2px solid white;
+        border-left: 2px solid black;
         height: 0;
         width: 0;
         margin-left: 50%;
@@ -19,6 +23,7 @@
     }
 
     .sosmed {
+        color: black;
         position: absolute;
         margin-left: 53%;
     }
@@ -29,7 +34,7 @@
     }
 
     .icon a {
-        color: white;
+        color: black;
         text-decoration: none;
         padding: 20px;
     }
@@ -41,13 +46,13 @@
     label {
         display: inline-block;
         font-size: 15px;
-        color: white;
+        color: black;
         margin-left: 70px;
     }
 
     .finput {
         display: inline-block;
-        border: none;
+        border: 0.5px solid black;
         height: 25px;
         width: 300px;
         border-radius: 4px;
@@ -55,51 +60,61 @@
         margin-left: 70px;
     }
 
-    .alamat {
+    .pesan {
         height: 320px;
+        border: 0.5px solid black;
         width: 30%;
         margin-left: 70px;
     }
-    .button{
+
+    .button {
+        border: 1px solid black;
         margin-left: 70px;
         display: block;
         width: 80px;
         height: 30px;
         font-size: 15px;
     }
-    .button:active{
+
+    .button:active {
         background-color: rgb(0, 183, 255);
     }
+
     .jdlbwh {
         margin-left: 70px;
-      
+
     }
-a{
-  text-decoration: none !important;
-}
+
+    a {
+        text-decoration: none !important;
+    }
+
     .hrb {
+        border: 1px solid black;
         width: 50%;
         margin-left: 70px;
         margin-top: 5px;
     }
-    .findbwh{
+
+    .findbwh {
         position: absolute;
         display: flex;
         margin-left: 82.5%;
-        bottom: -52%;
+        bottom: -50%;
     }
+
     .iconbwh {
         position: absolute;
         display: flex;
-        margin-top:0;
-        margin-left:70%;
-        bottom:-350px;
+        margin-top: 0;
+        margin-left: 70%;
+        bottom: -350px;
         padding: 10px;
         border-radius: 5px;
     }
 
     .iconbwh a {
-        color: white;
+        color: black;
         text-decoration: none;
         padding: 20px;
     }
@@ -107,7 +122,8 @@ a{
     .iconbwh a:hover {
         color: yellow;
     }
-    .bgbwh{
+
+    .bgbwh {
         position: relative;
         display: flex;
     }
@@ -119,8 +135,8 @@ a{
 <!-- Akhir Font Awesome -->
 
 <!-- Judul Pertama -->
-<h3 class="judul" style="color: white;"> Contact Us </h3>
-<hr class="horizontal1" style="border: 1px solid white;">
+<h3 class="judul" style="color: black;"> Contact Us </h3>
+<hr class="horizontal1" style="border: 1px solid black;">
 <!-- akhir Judul Pertama -->
 
 <!-- Garis Vertical -->
@@ -130,7 +146,7 @@ a{
 
 <!-- Icon atas kanan -->
 <div class="sosmed">
-    <h3 style="color: white;"> Find Us On </h3>
+    <h3 style="color: black;"> Find Us On </h3>
     <div class="icon">
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -160,47 +176,49 @@ a{
 <input class="finput" type="number">
 <br>
 <br>
-<label for="alamat"> Alamat lengkap </label>
+<label for="pesan"> Pesan </label>
 <br>
 <br>
-<input class="alamat" type="text">
+<input class="pesan" type="text">
 <br>
 <br>
-<input class="button" type="submit" value="submit">
+<input class="button" type="submit" value="kirim">
 <br>
 <br>
-<hr style="border: 1px solid white;">
+<hr style="border: 1px solid black;">
 <!-- Akhir Label Input -->
 
 <!-- Baris bawah -->
 <a href="#">
-    <h5 style="color: white;" class="jdlbwh"> Refound Policy </h5>
+    <h5 style="color: black;" class="jdlbwh"> Refound Policy </h5>
 </a>
-<hr class="hrb">
+<hr class="hrb" style="color: black">
 <a href="#">
-    <h5 style="color: white;" class="jdlbwh"> Pemesanan </h5>
+    <h5 style="color: black;" class="jdlbwh"> Pemesanan </h5>
 </a>
-<hr class="hrb">
+<hr class="hrb" style="color: black">
 <a href="#">
-    <h5 style="color: white;" class="jdlbwh"> FAQ </h5>
+    <h5 style="color: black;" class="jdlbwh"> FAQ </h5>
 </a>
-<hr class="hrb">
+<hr class="hrb" style="color: black">
 <a href="#">
-    <h5 style="color: white;" class="jdlbwh"> Pembayaran Policy </h5>
+    <h5 style="color: black;" class="jdlbwh"> Pembayaran Policy </h5>
 </a>
-<hr class="hrb">
+<hr class="hrb" style="color: black">
 
 <!-- find us on bwh -->
-<div class="findbwh"> 
-        <h3 style="color:white">Find Us On </h3>
+
+<div class="findbwh">
+    <h3 style="color:black">Find Us On </h3>
 </div>
 
 <!-- Logo Bawah -->
- <div class="iconbwh">
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-    </div>
+
+<div class="iconbwh">
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+</div>
 <!-- Akhir Logo Bawah -->
