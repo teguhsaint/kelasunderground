@@ -1,16 +1,19 @@
 <style>    
-div.gallery {
-  margin: 5px;
+div.card {
+  margin: 2px;
   border: 1px solid #ccc;
   float: left;
   width: 210px;
+  column-gap:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
 }
 
-div.gallery:hover {
+div.card:hover {
   border: 2px solid #777;
 }
 
-div.gallery img {
+div.card img {
   width: 100%;
   height: auto;
 }
@@ -29,7 +32,7 @@ div.desc {
 </head>
 
 <body>
-<div class="gallery">
+<div class="card">
   <a target="_blank" href="./img/padi01.png">
     <img src="./img/padi01.png" alt="Cinque Terre" width="600" height="400">
   </a>
@@ -38,7 +41,7 @@ div.desc {
     <h3>Mulai dari Rp 70.000,00</h3></div>
 </div>
 
-<div class="gallery">
+<div class="card">
   <a target="_blank" href="./img/padi02.png">
     <img src="./img/padi02.png" alt="Forest" width="600" height="400">
   </a>
@@ -49,7 +52,7 @@ div.desc {
     <h3>Mulai dari Rp 60.000,00</h3></div>
 </div>
 
-<div class="gallery">
+<div class="card">
   <a target="_blank" href="./img/padi03.png">
     <img src="./img/padi03.png" alt="Northern Lights" width="600" height="400">
   </a>
@@ -58,52 +61,33 @@ div.desc {
   <div class="desc"><h3>Mulai dari Rp 65.000,00</h3></div>
 </div>
 
-<div class="gallery">
-    <p></p>
+<div class="card">
   <a target="_blank" href="./img/padi04.png">
     <img src="./img/padi04.png" alt="Mountains" width="600" height="400">
   </a>
-  <p></p>
   <div class="desc">Penih Padi Sertani 14</div>
-  <p></p>
   <div class="desc"><h3>Mulai dari Rp 55.000,00</h3></div>
 </div>
 
-<div class="gallery">
-    <p></p>
+<div class="card">
   <a target="_blank" href="./img/padi05.png">
     <img src="./img/padi05.png" alt="Northern Lights" width="600" height="400">
   </a>
-  <p></p>
   <div class="desc">Beni Padi Basmati Aroma</div>
   <div class="desc"><h3>Mulai dari Rp 75.000,00</h3></div>
 </div>
 
-<div class="gallery">
-    <p></p>
+<div class="card">
   <a target="_blank" href="./img/padi06.png">
     <img src="./img/padi06.png" alt="Northern Lights" width="600" height="400">
   </a>
-  <p></p>
   <div class="desc">Beni Padi SR Genjah</div>
    <div class="desc"><h3>Mulai dari Rp 60.000,00</h3></div>
 </div>
+
 </body>
 
-<head>
-    <h1 style="text-align:center"> </h1>
-</head>
-<body>
-    <div class="gallery">
-    <p></p>
-  <a target="_blank" href="./img/padi06.png">
-    <img src="./img/padi06.png" alt="Northern Lights" width="600" height="400">
-  </a>
-  <p></p>
-  <div class="desc">Beni Padi SR Genjah</div>
-   <div class="desc"><h3>Mulai dari Rp 60.000,00</h3></div>
-</div>
-</body>
+
 
 
 
