@@ -3,172 +3,408 @@
 
 .card img {
 
-        width: 150px;
-        
+        width: 145px;
+        padding-bottom:2px
     }
 .card {
   text-align: left;
   margin: 10px;
-  font: 1em sans-serif;
-  border-style:;
+  font-size:1em;
+  font-family:sans-serif;
   float: left;
-  padding: 0 18.8px;
+  padding: 18.8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   column-gap:20px;
   border-radius:10px;
-  line-height: 25%;
-  padding-bottom:5px;
-  margin-bottom: 20px;
+  font-size:normal;
+  }
+
+.cb0{
+background-color: lightgreen;
+border-radius:5px;
+height:20px;
+width:64px;
+margin-bottom:7px;
+margin-top:3px
+
 }
-.cb{
-  font-size: 10pt;
-}
-.judul{
+
+.cb1{
+  font-size:13px;
+  color:green;
   text-align:center;
+  font-family:monospace;
+  }
+
+  .cb2{
+
+ height:20px;
+width:64px;
+margin-bottom:13px;
+margin-top:5px
+
+  }
+.pr{
+    display:flex;
+    margin-top:15px;
+  margin-bottom:15px;
+  font-style: lighter;
+  font-size:19px;
+  font-weight: 50;
+  font-family:'Times New Roman', Times, serif
+  }
+.price{
+    margin-top:-15px;
+    font-family:calibri,sans-serif;
+    font-size:20px;
 }
+.king{
+    margin-top:1px;
+    font-size:small;
+    margin-bottom: 0px;
+}
+
+.diskon{
+    display:inline-block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:13px;
+  text-align:center;
+  width:33px;
+  margin-bottom:7px;
+  margin-top:3px;
+  color:red;
+  background-color:pink;
+  border-radius:3px
+
+}
+
+.coret{
+    display:inline-block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:13px;
+  text-align:center;
+  width:33px;
+  margin-bottom:7px;
+  margin-top:3px;
+  margin-left:4px;
+  text-decoration:line-through;
+}
+
+
+.bintang{
+    
+    margin-top: 14px;
+    color:orange;
+    font-size:12px;
+    
+}
+.kaki{
+    color:black;
+    font-size:12px;
+}
+.nocb{
+    margin-top: 15px;
+    margin-bottom:30px;
+}
+.nodc{
+    display:flex;
+        margin-top: 15px;
+    margin-bottom:15px;
+}
+
 </style>
-    <h2 class="judul">bahan termurah dan berkualitas</h2>
+    
 <div class="card">
-    <img src="img/gresik.jfif" alt="Avatar" >
-    <h3>semen gresik</h3>
-    <p>45.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 4.3 | Terjual 800rb</span>
+    <img src="img/bambuapus.jfif" alt="Avatar" >
+    <div class="pr">
+    <span>semen</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <span class="nodc"></span>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- semen gresik -->
 <div class="card">
     <img src="img/holcim.jfif" alt="Avatar" >
-    <h3>semen holcim</h3>
-    <p>56.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 4.0 | Terjual 100rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    
+    <div class="price"><strong>400.000</strong></div>
+    <div class="nocb">
+    
+    </div>
+    
+    <div class="king">
+    <i class="fa-solid fa-chess-king"></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- semen holcim -->
 <div class="card">
     <img src="img/padang.jfif" alt="Avatar" >
-    <h3>semen padang</h3>
-    <p>39.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 3.9 | Terjual 100rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="cb0">
+    <div class="cb1">cashback</div>
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- semen padang -->
 <div class="card">
     <img src="img/garuda.jfif" alt="Avatar" >
-    <h3>semen garuda</h3>
-    <p>41.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 400rb</span>
+    <div class="pr">
+    <span>semen</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <span class="diskon">13%</span><span class=coret>13.000</span>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- semen garuda -->
 <div class="card">
     <img src="img/merahputih.jfif" alt="Avatar" >
-    <h3>semen merahputih</h3>
-    <p>44.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 300rb</span>
+    <div class="pr">
+    <span>semen</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <span class="diskon">13%</span><span class=coret>13.000</span>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- semen merahputih -->
 <div class="card">
     <img src="img/tigaroda.jfif" alt="Avatar" >
-    <h3>semen tigaroda</h3>
-    <p>42.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 4.0 | Terjual 100rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="nocb">
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"></i>
+    <span>jombang</span>
+</div>
+<footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- tigaroda -->
 <div class="card">
     <img src="img/pasir.jfif" alt="Avatar" >
-    <h3>pasir 1 truck</h3>
-    <p>1000.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 100rb</span>
+    <div class="pr">
+    <span>semen</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <span class="diskon">13%</span><span class=coret>13.000</span>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- pasir -->
 <div class="card">
     <img src="img/kerikil.jfif" alt="Avatar" >
-    <h3>kerikil 1 truck</h3>
-    <p>1500.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 900rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="cb0">
+    <div class="cb1">cashback</div>
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- kerikil -->
 <div class="card">
     <img src="img/besibeton.jfif" alt="Avatar" >
-    <h3>besi beton 1 truck</h3>
-    <p>3000.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 100rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="cb0">
+    <div class="cb1">cashback</div>
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- besi beton -->
 <div class="card">
     <img src="img/batako.jfif" alt="Avatar" >
-    <h3>batako</h3>
-    <p>1000.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 100rb</span>
+    <div class="pr">
+    <span>semen</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <span class="nodc"></span>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- batako -->
 <div class="card">
     <img src="img/batamerah.jfif" alt="Avatar" >
-    <h3>bata merah</h3>
-    <p>1000.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 3.0 | Terjual 300rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="cb0">
+    <div class="cb1">cashback</div>
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- bata merah -->
 <div class="card">
     <img src="img/genteng.jfif" alt="Avatar" >
-    <h3>genteng</h3>
-    <p>2500.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 4.2 | Terjual 100rb</span>
-</div>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="cb0">
+    <div class="cb1">cashback</div>
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
+</div>v>
 <!-- genteng -->
 <div class="card">
     <img src="img/kayubroti.jfif" alt="Avatar" >
-    <h3>kayu broti</h3>
-    <p>5600.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 100rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="cb0">
+    <div class="cb1">cashback</div>
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- kayu broti -->
 <div class="card">
     <img src="img/galvalum.jfif" alt="Avatar" >
-    <h3>galvalum</h3>
-    <p>1000.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 100rb</span>
+    <div class="pr">
+    <span>semen</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <span class="diskon">13%</span><span class=coret>13.000</span>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- galvalum -->
 <div class="card">
     <img src="img/kayukaso.jfif" alt="Avatar" >
-    <h3>kayu kaso</h3>
-    <p>2000.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 100rb</span>
+    <div class="pr">
+    <span>semen</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <span class="diskon">13%</span><span class=coret>13.000</span>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- kayu kaso -->
 <div class="card">
     <img src="img/kayubalok.jfif" alt="Avatar" >
-    <h3>kayu balok</h3>
-    <p>1200.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 2.0 | Terjual 700rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="nocb">
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- kayu balok -->
 <div class="card">
     <img src="img/kayujati.jfif" alt="Avatar" >
-    <h3>kayu jati</h3>
-    <p>9000.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 4.0 | Terjual 500rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="cb0">
+    <div class="cb1">cashback</div>
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
+</div>
 </div>
 <!-- kayu jati -->
 <div class="card">
     <img src="img/bambuapus.jfif" alt="Avatar" >
-    <h3>bambu apus</h3>
-    <p>500.000</p>
-    <p class="cb">cashback</p>
-    <i style="color:orange;" class="fa fa-star" aria-hidden="true"></i><span style="font-size:14px;"> 5.0 | Terjual 800rb</span>
+    <div class="pr">
+    <span>bambu apus</span>
+    </div>
+    <div class="price"><strong>500.000</strong></div>
+    <div class="cb0">
+    <div class="cb1">cashback</div>
+    </div>
+    <div class="king">
+    <i class="fa-solid fa-chess-king"s></i>
+    <span>jombang</span></div>
+    <footer class="bintang">
+    <i  class="fa fa-star" aria-hidden="true"></i><span class=kaki> 5.0 | Terjual 800rb++</span>
+    </footer>
 </div>
 <!-- bambu apus -->
